@@ -29,4 +29,4 @@ EXPOSE 5173
 # Comando para iniciar o servidor de desenvolvimento do Vite
 # --host 0.0.0.0 é essencial: faz o Vite escutar em todas as interfaces,
 # não apenas localhost, permitindo acesso de fora do container
-CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+CMD ["npm", "run", "dev"]
